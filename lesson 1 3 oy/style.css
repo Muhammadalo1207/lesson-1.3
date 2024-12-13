@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+body {
+    background-image: url("./img/image\ 2\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 70px;
+}
+
+h2 {
+    font-family: Nosifer;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.84px;
+    text-align: center;
+    color: #FAFF00;
+}
+
+h2:hover {
+    color: #B60505;
+}
+
+button {
+    width: 692px;
+    height: 119px;
+    top: 674px;
+    left: 413px;
+    gap: 0px;
+    border: 11px 0px 0px 0px;
+    opacity: 0px;
+    font-size: 50px;
+    border: 11px solid #050505;
+    background: linear-gradient(90deg, rgba(245, 194, 44, 0.96) 0%, #64AA58 28%, #FAFF00 58.5%, #D92E23 100%);
+    font-family: Irish;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58.03px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 60px;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 650px;
+    margin-bottom: -645px;
+}
+
+h1 {
+    font-family: Nosifer;
+    font-size: 100px;
+    font-weight: 800;
+    line-height: 178.42px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color:#FAFF00;
+    width: 1200px;
+}
+h1:hover{
+    color: #B60505;
+}
